@@ -100,6 +100,16 @@ const App = () => {
     <div className='bg-black h-screen w-screen flex justify-center items-center'>
       <div className='hero-content outline outline-2 outline white rounded-md flex flex-col space-y-10'>
         <h2 className='text-7xl'>25 + 5 Clock</h2>
+        <h1>
+          Run test in this app somehow not working, but in
+          <a
+            className='text-cyan-800'
+            href='https://codepen.io/kolor-gurita/pen/PoBYvgZ'>
+            {' '}
+            Codepen
+          </a>{' '}
+          it is working
+        </h1>
         <div className='space-y-7 outline-white p-2'>
           <div className='flex flex-col space-y-4'>
             <h3 className='text-3xl' id='break-label'>
